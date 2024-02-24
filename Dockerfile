@@ -1,4 +1,4 @@
-FROM alpine:3.18.3
+FROM alpine:3.19.0
 
 RUN apk add --no-cache bash
 ARG VERSION=v4.9.6
